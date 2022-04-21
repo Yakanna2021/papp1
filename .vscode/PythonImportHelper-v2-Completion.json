@@ -130,6 +130,15 @@
         "documentation": {}
     },
     {
+        "label": "django_heroku",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django_heroku",
+        "description": "django_heroku",
+        "detail": "django_heroku",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -340,7 +349,7 @@
         "kind": 5,
         "importPath": "pageproj.settings",
         "description": "pageproj.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS =[os.path.join(BASE_DIR,'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS =[os.path.join(BASE_DIR,'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n#Activate django_heroku",
         "detail": "pageproj.settings",
         "documentation": {}
     },
@@ -349,7 +358,7 @@
         "kind": 5,
         "importPath": "pageproj.settings",
         "description": "pageproj.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS =[os.path.join(BASE_DIR,'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS =[os.path.join(BASE_DIR,'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n#Activate django_heroku\ndjango_heroku.settings(locals())",
         "detail": "pageproj.settings",
         "documentation": {}
     },
@@ -358,7 +367,7 @@
         "kind": 5,
         "importPath": "pageproj.settings",
         "description": "pageproj.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS =[os.path.join(BASE_DIR,'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS =[os.path.join(BASE_DIR,'static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n#Activate django_heroku\ndjango_heroku.settings(locals())",
         "detail": "pageproj.settings",
         "documentation": {}
     },
@@ -367,7 +376,7 @@
         "kind": 5,
         "importPath": "pageproj.settings",
         "description": "pageproj.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n#Activate django_heroku\ndjango_heroku.settings(locals())",
         "detail": "pageproj.settings",
         "documentation": {}
     },
